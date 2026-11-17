@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ai-usage-meter"
+          path="/org/gnome/shell/extensions/ai-usage-meter/">
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>Posição no painel: left, center ou right</summary>
+    </key>
+    <key name="show-icon" type="b">
+      <default>true</default>
+      <summary>Mostrar o ícone</summary>
+    </key>
+    <key name="show-labels" type="b">
+      <default>true</default>
+      <summary>Mostrar os rótulos 5h e 7d</summary>
+    </key>
+    <key name="show-updated" type="b">
+      <default>true</default>
+      <summary>Mostrar a hora da última atualização</summary>
+    </key>
+    <key name="show-seconds" type="b">
+      <default>true</default>
+      <summary>Mostrar segundos na hora da última atualização</summary>
+    </key>
+    <key name="spacing" type="i">
+      <range min="0" max="40"/>
+      <default>8</default>
+      <summary>Espaço entre os itens, em px</summary>
+    </key>
+    <key name="bar-width" type="i">
+      <range min="0" max="200"/>
+      <default>40</default>
+      <summary>Largura das mini barras, em px (0 esconde)</summary>
+    </key>
+    <key name="bar-height" type="i">
+      <range min="1" max="12"/>
+      <default>6</default>
+      <summary>Espessura das mini barras, em px</summary>
+    </key>
+    <key name="refresh-interval" type="i">
+      <range min="30" max="3600"/>
+      <default>120</default>
+      <summary>Intervalo de atualização, em segundos</summary>
+    </key>
+  </schema>
+</schemalist>

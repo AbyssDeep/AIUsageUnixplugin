@@ -1,0 +1,91 @@
+/* Painel */
+.aum-panel {
+    spacing: 8px;
+}
+
+.aum-icon {
+    icon-size: 16px;
+}
+
+.aum-label {
+    font-size: 0.85em;
+}
+
+.aum-pct {
+    font-weight: bold;
+}
+
+.aum-sep {
+    padding: 0 2px;
+}
+
+/* trilho neutro: funciona em painel claro (Zorin Light) e escuro */
+.aum-bar {
+    background-color: rgba(128, 128, 128, 0.35);
+    border-radius: 3px;
+}
+
+.aum-bar-fill {
+    background-color: #d97757;
+    border-radius: 3px;
+}
+
+.aum-updated {
+    color: #d97757;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+/* Menu */
+.aum-menu {
+    min-width: 320px;
+}
+
+.aum-header {
+    spacing: 8px;
+}
+
+.aum-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.aum-pill {
+    background-color: #d97757;
+    color: #ffffff;
+    border-radius: 99px;
+    padding: 2px 10px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.aum-pill.error {
+    background-color: #c9433b;
+}
+
+.aum-pill.loading {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.aum-refresh {
+    padding: 6px;
+    border-radius: 99px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.aum-row {
+    spacing: 5px;
+}
+
+.aum-row-title {
+    font-weight: 500;
+}
+
+.aum-bar-big {
+    border-radius: 5px;
+}
+
+.aum-small {
+    font-size: 0.85em;
+}
